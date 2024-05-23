@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RecipeMaster</title>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="icon" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍴 RecipeMaster</h1>
+            <h2>What recipe do you want to save today?</h2>
+        </header>
+        <input type="text" id="search-bar" class="search-bar" placeholder="Search for recipes...">
+        <div id="recipe-list" class="recipe-list">
+            <p id="no-recipes-message">You currently have 0 recipes stored in your Recipe App!</p>
+        </div>
+        <button id="open-modal" class="btn">Add New Recipe</button>
+    </div>
+
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Recipe</h2>
+            <input type="text" id="recipe-title" placeholder="Recipe Title">
+            <textarea id="recipe-details" placeholder="Recipe Details"></textarea>
+            <input type="file" id="recipe-image">
+            <h3>Ingredients</h3>
+            <div id="ingredients-list"></div>
+            <input type="text" id="new-ingredient" placeholder="Add Ingredient">
+            <button id="add-ingredient" class="btn">Add Ingredient</button>
+            <button id="save-recipe" class="btn">Save Recipe</button>
+        </div>
+    </div>
+
+    <div id="recipe-details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="recipe-details-title">Recipe Title</h2>
+            <img id="recipe-details-image" src="" alt="">
+            <p id="recipe-details-description">Recipe Details</p>
+            <h3>Ingredients</h3>
+            <ul id="recipe-details-ingredients"></ul>
+            <button id="delete-recipe" class="btn btn-danger">Delete Recipe</button>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
