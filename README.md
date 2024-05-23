@@ -1,7 +1,10 @@
 # **RecipeMaster**
 
 ## Description
-This Website is made to help you save and organize your favorite recipes.    The application allows users to add new recipes, including ingredients and optional images, and view detailed descriptions. Users can also search for recipes and manage their collection effortlessly!!!
+This Website is made to help you save and organize your favorite recipes.    The application allows users to add new recipes, including ingredients and optional images, and view detailed descriptions. Users can also search for recipes and manage their collection effortlessly!!!     
+      
+webiste is hosted on to github pages,      
+link : https://rajagamsinghkalra.github.io/recipe_website_search/
 
 ## Features
 - **Add New Recipes:** Users can add new recipes with a title, description, ingredients, and optional image.
